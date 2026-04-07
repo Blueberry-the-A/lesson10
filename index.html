@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+  <div class="bg_wrapper">
+    <div class="container">
+      <div class="login_wrapper">
+        <img src="./img/user.png" 
+          class="login_img" 
+          width="90" 
+          height="90" 
+          alt="user_icon">
+        <h1 class="login-title">Member Login</h1>
+
+        <form action="" class="form"> 
+          <div class="username_wrapper">
+            <input class="username_input" type="text" id="name" name="name" required placeholder="">
+            <label class="username_label" for="name">Username</label>
+          </div>
+          <div class="password_wrapper">
+            <input class="password_input" type="password" id="password" name="password" required placeholder="">
+            <label class="password_label" for="name">Password</label>
+          </div>
+          <button class="submit_but" type="submit">Login</button>
+        </form>
+      <a href="#" class="forgot_link">Forgot password?</a>
+    </div>
+    <h2 class="sub-title">...or login with:</h2>
+    <ul class="other-options_login">
+      <li class="facebook"><a href="#" class="fb_link">
+        <img src="./img/facebook.svg" 
+        class="fb_img"
+        width="15" 
+        height="15" 
+        alt="facebook icon">Facebook</a></li>
+      <li class="twitter"><a href="#" class="twit_link">
+        <img src="./img/twitter.svg"
+        class="twit_img"
+        width="15" 
+        height="15"
+        alt="twitter icon">Twitter</a></li>
+    </ul>
+    </div>
+  </div>
+</body>
+</html>

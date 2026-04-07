@@ -1,0 +1,172 @@
+@import "./base.css";
+@import "./container.css";
+
+body{
+    background-color: red;
+}
+
+.login_wrapper{
+    position:relative;
+    background-color: rgb(217, 217, 217);
+    width:400px;
+    height:460px;
+    margin: 0 auto;
+    margin-top:120px;
+    text-align: center;
+}
+
+.login_img{
+    position: absolute;
+    top: -12%;
+    left: 40%;
+}
+
+.login-title{
+    padding-top:35px;
+    font-size: 40px;
+    margin-top:50px;
+}
+
+.username_wrapper{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100px;
+    position:relative;
+}
+
+.username_input{
+    font-size:25px;
+    height:75px;
+    width:75%
+}
+
+.username_label{
+    font-size:25px;
+    position: absolute;
+    transition: transform 0.4s ease-out;
+}
+
+.username_input:not(:placeholder-shown) + .username_label{
+    transform: translateY(-37px);
+    background-color: white;
+}
+
+.password_wrapper{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100px;
+    position:relative;
+}
+
+.password_input{
+    font-size:25px;
+    height:75px;
+    width:75%
+}
+
+.password_label{
+    font-size:25px;
+    position: absolute;
+    transition: transform 0.4s ease-out;
+}
+
+.password_input:not(:placeholder-shown) + .password_label{
+    transform: translateY(-37px);
+    background-color: white;
+}
+
+.submit_but{
+    margin:20px auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(15, 151, 43);
+    width:300px;
+    height:60px;
+    border: transparent;
+    border-bottom: solid 4px darkgreen;
+    color:white;
+    font-size: 18px;
+    transition: transfotm 0.4s ease-out;
+    transition: background-color 0.4s ease-out;
+}
+
+.submit_but:hover{
+    background-color: rgb(10, 67, 10);
+    transform:scale(1.05);
+}
+
+.forgot_link{
+    color:orange;
+    font-size:20px;
+    font-weight: 700;
+    margin:0 auto;
+    transition: transfotm 0.4s ease-out;
+    transition: color 0.4s ease-out;
+}
+
+.forgot_link:hover{
+    color: rgb(207, 55, 0);
+    transform:scale(1.05);
+}
+
+.sub-title{
+    text-align:center;
+    margin:10px auto;
+    color:white;
+    font-size:20px;
+}
+
+.other-options_login{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.fb_link{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(27, 27, 176);
+    width:240px;
+    height:60px;
+    border: solid 2px white;
+    color:white;
+    font-size: 18px;
+    transition: transfotm 0.4s ease-out;
+    transition: background-color 0.4s ease-out;
+}
+
+.fb_link:hover{
+    background-color: rgb(36, 6, 105);
+    transform:scale(1.05);
+}
+
+.fb_img{
+    margin-right:8px;
+}
+
+.twit_img{
+    margin-right:8px;
+}
+
+.twit_link{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(84, 186, 226);
+    width:240px;
+    height:60px;
+    border: solid 2px white;
+    color:white;
+    font-size: 18px;
+    transition: transfotm 0.4s ease-out;
+    transition: background-color 0.4s ease-out;
+}
+
+.twit_link:hover{
+    background-color: rgb(60, 122, 122);
+    transform:scale(1.05);
+}
